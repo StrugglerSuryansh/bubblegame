@@ -1,3 +1,4 @@
+alert("match the bubble number with the number written in the hit box");
 var timer = 60;
 var score = 0;
 var hitrn = 0;

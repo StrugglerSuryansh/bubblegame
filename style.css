@@ -1,0 +1,98 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Gill Sans",
+  "Gill Sans MT", Calibri,
+  "Trebuchet MS", sans-serif;
+}
+
+html,
+body {
+ height: 100%;
+ width: 100%;
+}
+
+#main {
+ height: 100%;
+ width: 100%;
+ background-color: rgb(0, 68, 255);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#panel {
+ height: 80%;
+ width: 80%;
+ border-radius: 10px;
+ overflow: hidden;
+}
+#paneltop {
+ height: 15%;
+ width: 100%;
+ background-color: aqua;
+ display: flex;
+ padding: 10px;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.elem {
+ padding: 1px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 20px;
+ padding-left: 5vh;
+ padding-right: 5vh;
+ font-size: 20px;
+ text-transform: uppercase;
+}
+
+/*  */
+.box {
+ padding: 2px 30px;
+ background-color: aliceblue;
+ border-radius: 5px;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ width: 30%;
+ gap: 10px;
+ font-size: 30px;
+}
+
+#pbtm {
+ height: 100%;
+ width: auto;
+ padding: 10px;
+ gap: 30px;
+ display: flex;
+ flex-wrap: wrap;
+ background-color: rgb(245, 239, 239);
+ justify-content: center;
+ align-items: center;
+}
+
+#bubble {
+ height: 30px;
+ width: 30px;
+ background-color: cyan;
+ border-radius: 50%;
+ /* padding: 10px 10px; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* display: flex; */
+}
+
+#bubble:hover {
+ cursor: pointer;
+ background-color: rgba(
+  0,
+  255,
+  255,
+  0.411
+ );
+}

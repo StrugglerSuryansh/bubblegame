@@ -1,0 +1,9 @@
+backtick and single quotes
+both are used to store the string
+" " for dynamic storing + is used
+`` for dynamic values we can store like `${}`
+
+event bubbleing
+jispe click karoge wo element par event listener raise hoga, aur event listener na milne par 
+event element ke parent par listener dhundega , wha bhi na milne par event parent ke parent ke parent
+ par event listener ko dhundega;
